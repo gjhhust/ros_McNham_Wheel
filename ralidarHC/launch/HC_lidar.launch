@@ -1,0 +1,12 @@
+<launch>
+  <node name="HCrplidarNode"          pkg="ralidarHC"  type="HCrplidarNode" output="screen" >
+    <param name="serial_port"         type="string" value="/dev/lidar"/>  
+    <param name="serial_baudrate"     type="int"    value="115200"/>
+    <param name="frame_id"            type="string" value="laser"/>
+    <param name="inverted"            type="bool"   value="false"/>
+  </node>
+  <!--发布静态坐标变换，laser为雷达相对机器人中心的坐标变换-->
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0 0 0 0 0 0 base_footprint laser 100"/>
+
+  
+</launch>

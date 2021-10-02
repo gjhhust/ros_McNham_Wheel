@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hc_test.dir/hc_test.cpp.o CMakeFiles/hc_test.dir/LidarTest.cpp.o  -o ../../bin/lib/hc_test  -L/src/base  -L/home/gjhhust/ROS/user/test/src/ralidarHC/sdk/lib -Wl,-rpath,/src/base:/home/gjhhust/ROS/user/test/src/ralidarHC/sdk/lib ../../bin/lib/liblidar.a -lpthread 

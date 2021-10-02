@@ -1,0 +1,13 @@
+<!--
+  Used for visualising rplidar in action.  
+  
+  It requires rplidar.launch.
+ -->
+<launch>
+  <include file="$(find ralidarHC)/launch/HC_lidar.launch" />
+
+  <include file="$(find ralidarHC)/launch/gmapping_test1.launch" />
+  <node name="rviz" pkg="rviz" type="rviz"  args="-d $(find ralidarHC)/config/rviz/HCralidar.rviz"/>
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ralidarHC)/config/rviz/rplidar.rviz" /> -->
+  <!-- args="-d $(find rplidar_ros)/rviz/rplidar.rviz" -->
+</launch>

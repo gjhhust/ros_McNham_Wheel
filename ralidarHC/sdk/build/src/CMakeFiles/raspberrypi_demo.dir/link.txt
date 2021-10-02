@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/raspberrypi_demo.dir/raspberrypi_demo.cpp.o CMakeFiles/raspberrypi_demo.dir/LidarTest.cpp.o  -o ../../bin/lib/raspberrypi_demo  -L/src/base  -L/home/gjhhust/ROS/user/test/src/ralidarHC/sdk/lib -Wl,-rpath,/src/base:/home/gjhhust/ROS/user/test/src/ralidarHC/sdk/lib ../../bin/lib/liblidar.a -lwiringPi -lpthread 
