@@ -7,7 +7,7 @@
     <include file="$(find my_robot)/pc_launch/gmapping.launch"/>
 
     <!-- 运行move_base节点 -->
-    <include file="$(find my_robot)/pc_launch/move_base02.launch" />
+    <include file="$(find my_robot)/pc_launch/move_base04.launch" />
 
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_robot)/config/rviz/move_base.rviz" />
 

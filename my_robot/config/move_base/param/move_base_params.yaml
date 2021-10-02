@@ -24,5 +24,5 @@ planner_patience: 5.0
 oscillation_timeout: 8.0
 oscillation_distance: 0.3
  
-base_local_planner: "base_local_planner/TrajectoryPlannerROS"
+base_local_planner: "base_local_planner/DWAPlannerROS"
 base_global_planner: "global_planner/GlobalPlanner"
