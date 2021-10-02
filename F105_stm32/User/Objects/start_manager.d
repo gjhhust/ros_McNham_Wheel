@@ -1,0 +1,11 @@
+.\objects\start_manager.o: ..\mllite\start_manager.c
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\start_manager.o: ..\include\log.h
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\start_manager.o: ..\mllite\start_manager.h
+.\objects\start_manager.o: ..\include\mltypes.h
+.\objects\start_manager.o: ..\include\stdint_invensense.h
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\start_manager.o: F:\ARM\ARMCC\Bin\..\include\limits.h

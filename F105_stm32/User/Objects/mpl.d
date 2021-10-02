@@ -1,0 +1,16 @@
+.\objects\mpl.o: ..\mllite\mpl.c
+.\objects\mpl.o: ..\mllite\storage_manager.h
+.\objects\mpl.o: ..\include\mltypes.h
+.\objects\mpl.o: ..\include\stdint_invensense.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\mpl.o: ..\include\log.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mpl.o: F:\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mpl.o: ..\mllite\mpl.h
+.\objects\mpl.o: ..\mllite\start_manager.h
+.\objects\mpl.o: ..\mllite\data_builder.h
+.\objects\mpl.o: ..\mllite\results_holder.h
+.\objects\mpl.o: ..\include\mlinclude.h

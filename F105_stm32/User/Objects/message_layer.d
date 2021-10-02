@@ -1,0 +1,11 @@
+.\objects\message_layer.o: ..\mllite\message_layer.c
+.\objects\message_layer.o: ..\mllite\message_layer.h
+.\objects\message_layer.o: ..\include\mltypes.h
+.\objects\message_layer.o: ..\include\stdint_invensense.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\message_layer.o: ..\include\log.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\message_layer.o: F:\ARM\ARMCC\Bin\..\include\stdarg.h

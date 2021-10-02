@@ -1,0 +1,17 @@
+.\objects\data_builder.o: ..\mllite\data_builder.c
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\data_builder.o: ..\mllite\ml_math_func.h
+.\objects\data_builder.o: ..\include\mltypes.h
+.\objects\data_builder.o: ..\include\stdint_invensense.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\data_builder.o: ..\mllite\data_builder.h
+.\objects\data_builder.o: ..\include\mlmath.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\data_builder.o: ..\mllite\storage_manager.h
+.\objects\data_builder.o: ..\mllite\message_layer.h
+.\objects\data_builder.o: ..\mllite\results_holder.h
+.\objects\data_builder.o: ..\include\log.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\data_builder.o: F:\ARM\ARMCC\Bin\..\include\stdarg.h

@@ -1,0 +1,31 @@
+将c全部添加工程
+头文件加入main.h
+#include <stdio.h>  
+#include <string.h>  
+#include <stdbool.h>
+#include <stdarg.h>
+#include "math.h"
+#include "bsp_esp8266.h"
+#include "bsp_esp8266_test.h"
+#include "Common.h"
+
+引用ESP8266_Init();初始化
+
+引用ESP8266_CheckRecvDataTest();是自定义一种传输方式 透传，需要去bsp_esp8266_test.h内修改连接的wifi，serve的ip就是你服务端的ip，此处就是你电脑连接wifi后的ip，端口自定义
+
+
+ESP8266_SendInf(void) 此函数是示例ESP8266发送函数
+void ESP8266_CheckRecvDataTest(void)  示例接受函数
+
+在电脑野火网络调试软件中创建TCP Serve（连一个网）  ip就是电脑本机（与刚刚修改的一样），端口与刚刚修改的一样就行
+开启监听，发送内容，在keil的debug可以看收到内容
+发送的内容也会在电脑调试助手的服务器消息里看到
+
+
+
+接线
+ESP8266
+TX 			PB11
+RX 			PB10
+EN(CH_PD)  	PB8
+RES        	PB9
